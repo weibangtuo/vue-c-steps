@@ -1,0 +1,7 @@
+/dist
+/src/demo
+/src/App.vue
+/src/main.js
+/public
+/node_modules
+yarn.lock
