@@ -1,2 +1,7 @@
-import HelloWorld from './src/components/HelloWorld.vue'
-export default HelloWorld
+import Vue from 'vue'
+import Steps from './src/components/Steps.vue'
+import parseStepItem from './src/components/StepItem.js'
+Vue.config.productionTip = false
+
+export {Steps, parseStepItem}
+export default Steps

@@ -2,12 +2,31 @@
 
 A Vue component of steps view.
 
+##
+
 ## Getting Started
+
+First install vue-c-steps:
+
+```shell
+npm i vue-c-steps --save
+```
+
+Usage demo see `src/app.vue` and `src/demo`
+
+## Development scripts
 
 * Build
 
 ```shell
 npm run build
+
+```
+
+* Build Dev
+
+```shell
+npm run buildDev
 
 ```
 
@@ -24,7 +43,6 @@ npm run serve
 npm run lint
 
 ```
-
 
 ## License
 

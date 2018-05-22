@@ -1,14 +1,14 @@
 {
   "name": "vue-c-steps",
-  "version": "0.1.0",
-  "main": "index.js",
+  "version": "0.1.1-beta.2",
+  "main": "dist/vue-c-steps.min.js",
   "description": "A Vue component of steps view.",
   "keywords": [
-      "vue",
-      "component",
-      "steps",
-      "vue-steps",
-      "vue-c-steps"
+    "vue",
+    "component",
+    "steps",
+    "vue-steps",
+    "vue-c-steps"
   ],
   "license": "MIT",
   "author": "weibangtuo <weibangtuo@hotmail.com>",
@@ -19,15 +19,17 @@
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "buildDev": "vue-cli-service build --mode development",
+    "lint": "vue-cli-service lint",
+    "publish": "npm"
   },
   "dependencies": {
     "vue": "^2.5.16"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-beta.10",
-    "@vue/cli-plugin-eslint": "^3.0.0-beta.10",
-    "@vue/cli-service": "^3.0.0-beta.10",
+    "@vue/cli-plugin-babel": "^3.0.0-beta.11",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.11",
+    "@vue/cli-service": "^3.0.0-beta.11",
     "vue-template-compiler": "^2.5.13"
   },
   "babel": {

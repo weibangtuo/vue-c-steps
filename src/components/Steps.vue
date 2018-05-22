@@ -56,7 +56,6 @@
 </template>
 
 <script>
-import '../assets/vue-steps.css'
 export default {
   name: 'Steps',
   props: {
