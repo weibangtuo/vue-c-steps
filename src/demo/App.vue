@@ -5,16 +5,16 @@
 </template>
 
 <script>
-import Steps from './components/Steps.vue'
-import parseStepItem from './components/StepItem'
-import Step1 from './demo/Step1'
-import Step11 from './demo/Step11'
-import Step12 from './demo/Step12'
-import Step13 from './demo/Step13'
-import Step2 from './demo/Step2'
-import Step3 from './demo/Step3'
-import Step4 from './demo/Step4'
-import Step5 from './demo/Step5'
+import Steps from '../components/Steps.vue'
+import parseStepItem from '../components/StepItem'
+import Step1 from './Step1'
+import Step11 from './Step11'
+import Step12 from './Step12'
+import Step13 from './Step13'
+import Step2 from './Step2'
+import Step3 from './Step3'
+import Step4 from './Step4'
+import Step5 from './Step5'
 
 export default {
   name: 'app',

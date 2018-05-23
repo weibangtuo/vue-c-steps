@@ -2,6 +2,8 @@
 node_modules
 yarn.lock
 package-lock.json
+dist/*.js.map
+dist/css
 
 # local env files
 .env.local

@@ -1,7 +1,5 @@
-import Vue from 'vue'
-import Steps from './src/components/Steps.vue'
-import parseStepItem from './src/components/StepItem.js'
-Vue.config.productionTip = false
+import Steps from './components/Steps.vue'
+import parseStepItem from './components/StepItem.js'
 
 export {Steps, parseStepItem}
 export default Steps

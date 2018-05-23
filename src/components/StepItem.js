@@ -7,8 +7,6 @@ const StepItemDefault = {
   _visited: false,
   _initialized: false,
   _open: false,
-  validator () {},
-  onFinish () {},
   children: []
 }
 
